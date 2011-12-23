@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical" android:weightSum="1">
+    <LinearLayout android:orientation="vertical" android:layout_height="wrap_content" android:id="@+id/linearLayout4" android:layout_width="match_parent">
+        <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/etNameAcc" android:text="@string/defaultNameAccText" android:singleLine="true"></EditText>
+        <EditText android:layout_width="match_parent" android:id="@+id/etUserID" android:layout_height="wrap_content" android:text="@string/defaultUserIDText" android:lines="1" android:maxLines="1" android:singleLine="true"></EditText>
+        <EditText android:layout_width="match_parent" android:id="@+id/etAPIKey" android:layout_height="wrap_content" android:text="@string/defaultAPIKeyText">
+            <requestFocus></requestFocus>
+        </EditText>
+        <TextView android:layout_weight="1" android:layout_width="wrap_content" android:text="http://www.eveonline.com/api/default.asp" android:layout_height="wrap_content" android:layout_gravity="center_horizontal" android:id="@+id/textView1" android:autoLink="web"></TextView>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:orientation="horizontal" android:layout_gravity="center_horizontal" android:layout_height="match_parent">
+        <Button android:text="Add" android:id="@+id/btAddAcc" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom"></Button>
+        <Button android:text="Cancel" android:id="@+id/btCancelNewAcc" android:layout_weight="1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="bottom"></Button>
+    </LinearLayout>
+    
+</LinearLayout>

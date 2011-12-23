@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/main_group">
+        <item android:title="@string/ctx_menu_update" android:id="@+id/item_ctx_menu_update"></item>
+        <item android:id="@+id/item_ctx_menu_updateall" android:title="@string/ctx_menu_updateall"></item><item android:id="@+id/item_ctx_menu_edit" android:title="@string/ctx_menu_edit"></item>
+        <item android:id="@+id/item_ctx_menu_delete" android:title="@string/ctx_menu_delete"></item>
+        
+    </group>
+    
+</menu>
