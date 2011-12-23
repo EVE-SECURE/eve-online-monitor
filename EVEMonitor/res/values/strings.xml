@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, EVEMonitorActivity!</string>
+    <string name="app_name">EVE Monitor</string>
+    <string name="defaultUserIDText">UserID</string>
+    <string name="defaultAPIKeyText">API key</string>
+    <string name="defaultNameAccText">Имя аккаунта</string>
+    <string name="ctx_menu_update">Обновить</string>
+    <string name="load_data">Loading data...</string>
+    <string name="process_data">Processing data...</string>
+    <string name="error_load">Error</string>
+    <string name="ctx_menu_updateall">Обновить все</string>
+    <string name="ctx_menu_edit">Редактировать</string>
+    <string name="ctx_menu_delete">Удалить</string>
+    <string name="btn_text_edit">Редактировать</string>
+</resources>
