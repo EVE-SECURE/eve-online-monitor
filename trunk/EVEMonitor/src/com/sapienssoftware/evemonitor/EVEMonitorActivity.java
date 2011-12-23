@@ -538,7 +538,7 @@ public class EVEMonitorActivity extends ListActivity {
 				int id = Integer.parseInt(data.getExtras().getString("URI"));
 				Log.d(TAG,"Результат есть id = " + id);
 				if (id >= 0) {
-					CallUpdateAcc(id, this, this);
+					//CallUpdateAcc(id, this, this);
 				}
 				
 			}
