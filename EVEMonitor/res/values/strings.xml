@@ -13,4 +13,5 @@
     <string name="ctx_menu_edit">Редактировать</string>
     <string name="ctx_menu_delete">Удалить</string>
     <string name="btn_text_edit">Редактировать</string>
+    <string name="widget_basic_name">EVE Monitor</string>
 </resources>
